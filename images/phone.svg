@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="168" height="168" viewBox="0 0 168 168">
+  <defs>
+    <filter id="Ellipse_1" x="0" y="0" width="168" height="168" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="phone" transform="translate(-44 -175)">
+    <g transform="matrix(1, 0, 0, 1, 44, 175)" filter="url(#Ellipse_1)">
+      <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="75" cy="75" r="75" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <g id="Group_1" data-name="Group 1" transform="translate(25.541 25)">
+      <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(85.459 201)" fill="none" stroke="#0081a2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <rect width="34" height="60" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="32" height="58" rx="3" fill="none"/>
+      </g>
+      <line id="Line_1" data-name="Line 1" x2="9.738" transform="translate(97.671 207.053)" fill="none" stroke="#0081a2" stroke-linecap="round" stroke-width="2"/>
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="3" cy="3" r="3" transform="translate(99.472 248.596)" fill="#0081a2"/>
+    </g>
+  </g>
+</svg>

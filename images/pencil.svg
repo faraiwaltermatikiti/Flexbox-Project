@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="168" height="168" viewBox="0 0 168 168">
+  <defs>
+    <filter id="Ellipse_1" x="0" y="0" width="168" height="168" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="pencil" transform="translate(-44 -175)">
+    <g transform="matrix(1, 0, 0, 1, 44, 175)" filter="url(#Ellipse_1)">
+      <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="75" cy="75" r="75" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <path id="Icon_metro-pencil" data-name="Icon metro-pencil" d="M53.2,1.928a9.375,9.375,0,0,1,7.5,15l-3.75,3.75L43.821,7.553l3.75-3.75A9.332,9.332,0,0,1,53.2,1.928ZM6.321,45.053,2.571,61.928l16.875-3.75L54.133,23.491,41.008,10.366ZM44.5,23.231l-26.25,26.25L15.017,46.25,41.267,20,44.5,23.231Z" transform="translate(95.429 224.072)" fill="#0081a2"/>
+  </g>
+</svg>
